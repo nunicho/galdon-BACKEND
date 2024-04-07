@@ -4,5 +4,11 @@
   "description": "El api de la web personal",
   "main": "index.js",
   "author": "Mauricio Javier Alonso",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mongoose": "^8.3.0"
+  }
 }
