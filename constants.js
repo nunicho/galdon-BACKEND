@@ -5,10 +5,13 @@ const DB_HOST = "cluster0.l6ot49e.mongodb.net";
 const API_VERSION = "v1"
 const IP_SERVER = "localhost"
 
+const JWT_SECRET_KEY = "palabraSecretaJsonWebToken"
+
 module.exports = {
-    DB_USER,
-    DB_PASSWORD,
-    DB_HOST,
-    API_VERSION,
-    IP_SERVER
-}
+  DB_USER,
+  DB_PASSWORD,
+  DB_HOST,
+  API_VERSION,
+  IP_SERVER,
+  JWT_SECRET_KEY,
+};

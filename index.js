@@ -13,7 +13,7 @@ const PORT  = process.env.POST || 3977
 
 mongoose
   .connect(
-    `mongodb+srv://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/`,
+    `mongodb+srv://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/mern-galdon`,
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => {
