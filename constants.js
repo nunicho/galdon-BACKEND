@@ -15,3 +15,6 @@ module.exports = {
   IP_SERVER,
   JWT_SECRET_KEY,
 };
+
+
+// mongodb+srv://contaalonso:XXONOrcfmbKLUFf9@cluster0.l6ot49e.mongodb.net/

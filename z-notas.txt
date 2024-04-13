@@ -1,0 +1,21 @@
+NOTA PERSONAL: 1
+ tratar de reemplazar la barra \\ porque es algo de windows. buscar una solución más adaptable a cualquier sistema
+
+se puede utilizar path.join
+const path = require('path');
+
+// Ejemplo de construcción de una ruta de archivo usando path.join()
+const directorio = 'uploads';
+const nombreArchivo = 'archivo.jpg';
+const rutaCompleta = path.join(directorio, nombreArchivo);
+console.log(rutaCompleta); // Salida dependerá del sistema operativo en el que se ejecute el código
+
+Al usar path.join(), tu código será más portátil y funcionará correctamente en diferentes sistemas operativos. Esto garantiza una mayor compatibilidad y evita problemas relacionados con los separadores de directorios específicos del sistema operativo.
+
+NOTA PERSONAL: 2
+
+cambiar api.get, api.post, etc   por router.get, router.post
+
+NOTA PERSONA: 3
+
+revisar los códigos de error....creo que Galdón usa indistintamente el código 400 y el 500, o los intercambia. 
