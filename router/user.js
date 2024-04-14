@@ -3,7 +3,7 @@ const multiparty = require("connect-multiparty");
 const UserController = require("../controllers/user.js");
 const md_auth = require("../middlewares/authenticated.js");
 
-const md_upload = multiparty({ uploadDir: "./uploads/avatar" }); // es un middleware, asi que por qué mandamos a la carpeta de middlewares?
+const md_upload = multiparty({ uploadDir: "./uploads/avatar" }); // NOTA PERSONAL:4 es un middleware, asi que por qué mandamos a la carpeta de middlewares?
 const api = express.Router();
 
 api.get("/user/me", [md_auth.asureAuth], UserController.getMe); // NOTA PERSONAL: 2
