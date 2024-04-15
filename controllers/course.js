@@ -23,8 +23,8 @@ async function getCourse(req, res) {
       limit: parseInt(limit),
     };
 
-    const courses = await Course.paginate({}, options);
-    res.status(200).send(courses);
+    const coursesStored = await Course.paginate({}, options);
+    res.status(200).send(coursesStored);
   } catch (error) {
     res.status(400).send({ msg: "Error al obtener los cursos" });
   }

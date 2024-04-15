@@ -11,6 +11,7 @@ const userRoutes = require("./router/user.js");
 const menuRoutes = require("./router/menu.js")
 const courseRoutes = require("./router/course.js")
 const postRoutes = require("./router/post.js")
+const newsletterRoutes = require("./router/newsletter.js")
 
 // Configure Body Parser
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -28,5 +29,7 @@ app.use(`/api/${API_VERSION}`, userRoutes);
 app.use(`/api/${API_VERSION}`, menuRoutes);
 app.use(`/api/${API_VERSION}`, courseRoutes);
 app.use(`/api/${API_VERSION}`, postRoutes);
+app.use(`/api/${API_VERSION}`, newsletterRoutes);
+
 
 module.exports = app;

@@ -34,3 +34,12 @@ es un middleware, asi que por qué mandamos a la carpeta de middlewares?
 ------------------- NOTA PERSONAL:6
 
 Verificar si se borran las imágenes cuando se borra el post / user / course
+
+------------------- NOTA PERSONAL: 7
+
+Validar mejor el email: por ejemplo, si mando un mail pepegmail  me lo toma
+
+
+------------------- NOTA PERSONAL: 8 
+
+Agregar testeos
