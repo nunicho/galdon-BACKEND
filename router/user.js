@@ -14,7 +14,7 @@ api.patch(
   [md_auth.asureAuth, md_upload],
   UserController.updateUser
 ); //Se usa patch porque es una actualización parcial
-api.delete("/user/:id", [md_auth.asureAuth], UserController.deleteUser);
+api.delete("/user/:id", [md_auth.asureAuth], UserController.deleteUser); //NOTA PERSONAL 6
 
 
 module.exports = api;

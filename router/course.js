@@ -9,7 +9,7 @@ const api = express.Router();
 api.post("/course", [md_auth.asureAuth, md_upload], CourseController.createCourse)
 api.get("/course", CourseController.getCourse) 
 api.patch("/course/:id", [md_auth.asureAuth, md_upload], CourseController.updateCourse);
-api.delete("/course/:id", [md_auth.asureAuth], CourseController.deleteCourse);
+api.delete("/course/:id", [md_auth.asureAuth], CourseController.deleteCourse); //NOTA PERSONAL 6
 
 
 module.exports = api

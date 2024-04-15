@@ -10,6 +10,7 @@ const authRoutes = require("./router/auth.js");
 const userRoutes = require("./router/user.js");
 const menuRoutes = require("./router/menu.js")
 const courseRoutes = require("./router/course.js")
+const postRoutes = require("./router/post.js")
 
 // Configure Body Parser
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -26,5 +27,6 @@ app.use(`/api/${API_VERSION}`, authRoutes);
 app.use(`/api/${API_VERSION}`, userRoutes);
 app.use(`/api/${API_VERSION}`, menuRoutes);
 app.use(`/api/${API_VERSION}`, courseRoutes);
+app.use(`/api/${API_VERSION}`, postRoutes);
 
 module.exports = app;

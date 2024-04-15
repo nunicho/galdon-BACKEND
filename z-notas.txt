@@ -25,3 +25,12 @@ revisar los códigos de error....creo que Galdón usa indistintamente el código
 ------------------- NOTA PERSONAL:4 
 
 es un middleware, asi que por qué mandamos a la carpeta de middlewares?
+
+
+------------------- NOTA PERSONAL:5
+
+¿Por qué no se usa id? verificar si está bien, si es buena práctica
+
+------------------- NOTA PERSONAL:6
+
+Verificar si se borran las imágenes cuando se borra el post / user / course
