@@ -14,7 +14,7 @@ function register(req, res) {
         res
           .status(400)
           .send({
-            msg: "Ya hay otra persona que tiene ese usuario. Prueba con otro nombre.",
+            msg: "Ya existe un usuario con ese e-mail.",
           });
       } else {
         const user = new User({
