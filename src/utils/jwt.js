@@ -1,5 +1,6 @@
 const jwt = require("jsonwebtoken")
-const { JWT_SECRET_KEY } = require("../constants.js");
+const { JWT_SECRET_KEY } = require("../../constants.js");
+
 
 
 function createAccessToken(user){

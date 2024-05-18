@@ -6,12 +6,12 @@ const { API_VERSION } = require("./constants");
 const app = express();
 
 // Import routings
-const authRoutes = require("./router/auth.js");
-const userRoutes = require("./router/user.js");
-const menuRoutes = require("./router/menu.js")
-const courseRoutes = require("./router/course.js")
-const postRoutes = require("./router/post.js")
-const newsletterRoutes = require("./router/newsletter.js")
+const authRoutes = require("./src/router/auth.js");
+const userRoutes = require("./src/router/user.js");
+const menuRoutes = require("./src/router/menu.js")
+const courseRoutes = require("./src/router/course.js")
+const postRoutes = require("./src/router/post.js")
+const newsletterRoutes = require("./src/router/newsletter.js")
 
 // Configure Body Parser
 app.use(bodyParser.urlencoded({ extended: true }));

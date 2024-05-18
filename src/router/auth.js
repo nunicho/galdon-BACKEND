@@ -1,6 +1,7 @@
 const express = require("express")
 const AuthController = require("../controllers/auth.js")
 
+
 const api = express.Router() // COMENTARIO: Yo aquí pondría const router, estoy acostumbrado a usarlo así.
 
 api.post("/auth/register", AuthController.register)
